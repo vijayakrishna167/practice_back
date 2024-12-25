@@ -1,5 +1,5 @@
 FROM node:alpine3.18
-WORKDIR /backend_pract
+WORKDIR /practice_back
 COPY package.json ./
 RUN npm install
 COPY . .
